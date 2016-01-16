@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "avoid_baidu",
+	"description": "拒绝百度保平安",
+	"version": "0.1",
+
+	"icons": {
+		"128": "images/icon32.png"
+	},
+
+	"browser_action": {
+		"default_icon": {
+			"19": "images/icon19.png",
+			"38": "images/icon38.png"
+		},
+		"default_title": "fuckbaidu"
+	},
+	"web_accessible_resources": [
+		"images/icon16.png",
+		"images/google.jpg",
+		"images/yahoo.jpg",
+		"images/bing.jpg",
+		"images/sogou.jpg",
+		"images/360.jpg",
+		"images/youdao1.jpg",
+		"images/wrap.jpg",
+		"images/github.gif"
+	],
+	"content_scripts": [
+		{
+			"matches": ["*://www.baidu.com/"],
+			"js": ["js/avoid_baidu.js"]	
+		}
+	]
+}
