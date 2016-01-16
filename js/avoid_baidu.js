@@ -119,7 +119,7 @@ var lines = function(){
 	<!-- github -->
 	<div id="github">
 		<div class="search">
-			 <span class="logo span github-logo"></span><form action="http://github.com/telnetning" target="_blank"> <input class="type-search" type="search"  placeholder="follow my github" readonly=true/><input class="span go" type=submit value=">" /></form><!-- <span class="span go"><a href="http://www.youdao.com"><h3>></h3></a></span>  -->
+			 <span class="logo span github-logo"></span><form action="http://github.com/telnetning/avoid_baidu" target="_blank"> <input class="type-search" type="search"  placeholder="follow my github" readonly=true/><input class="span go" type=submit value=">" /></form><!-- <span class="span go"><a href="http://www.youdao.com"><h3>></h3></a></span>  -->
 		</div>
 </div>
 
