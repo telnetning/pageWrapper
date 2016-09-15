@@ -1,4 +1,4 @@
-# avoid_baidu
+# pageWrapper
 这是一个用来Chrome的插件，对某些网站的页面进行了处理，比如去除广告等。  
 
 ## install
